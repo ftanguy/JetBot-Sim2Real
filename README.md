@@ -10,7 +10,7 @@ The project is structured chronologically, reflecting the research steps taken t
 
 * **`/Phase_1_MLP`**: The baseline implementation. Uses a standard Feedforward network (MLP) and Uniform Domain Randomization (UDR) for the motor deadzone parameters.
 * **`/Phase_2_FrameStacking`**: Introduces finite memory via Frame Stacking ($k=3$) to infer velocity, and replaces UDR with a Gaussian Mixture Model (GMM) based on empirical system identification to model "Puddle" vs. "Dry" states.
-* **`/Phase_3_LSTM`**: The final, most advanced pipeline. Replaces Frame Stacking with an LSTM recurrent policy for infinite memory. Replaces mathematical deadzone formulas with a Data-Driven empirical lookup table (`physics_lookup.npy`) and introduces an active "Dance" (stiction-breaking) logic.
+* **`/Phase_3_LSTM`**: The final, most advanced pipeline. Replaces Frame Stacking with an LSTM recurrent policy for infinite memory. Replaces mathematical deadzone formulas with a Data-Driven empirical lookup table (`physics_lookup.npy`).
 * **`/data_processing`**: Contains the raw system identification data collected from the real JetBot via OptiTrack, as well as the scripts used to extract the GMM parameters (Phase 2) and generate the empirical lookup table (Phase 3).
 
 ## 🚀 Getting Started
@@ -62,4 +62,5 @@ python play_and_plot_trajectories.py
 ## 🙏 Acknowledgements
 
 This project was developed at the **EPFL Sycamore Lab**. Special thanks to Kai Ren and Tingting Ni for their supervision, and to Federico for the original IsaacLab implementation that served as the reference for this JAX environment.
+
 
