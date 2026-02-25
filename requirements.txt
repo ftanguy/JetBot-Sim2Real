@@ -1,0 +1,22 @@
+# --- Core JAX Ecosystem ---
+jax
+jaxlib
+flax
+optax
+chex
+distrax
+numpyro
+
+# --- RL Environments ---
+gymnax
+
+# --- Scientific & Data Processing ---
+numpy
+scipy
+pandas
+scikit-learn
+
+# --- Utilities & Visualization ---
+matplotlib
+pyyaml
+tqdm
