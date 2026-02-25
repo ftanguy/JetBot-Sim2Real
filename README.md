@@ -1,4 +1,3 @@
-```markdown
 # JetBot Sim2Real: Safe Reinforcement Learning in Low-Friction Environments
 
 This repository contains the code for an EPFL semester project conducted in the Sycamore Lab. The goal of this project is to bridge the Sim2Real gap for a differential-drive JetBot navigating a maze under challenging, low-friction conditions (e.g., puddles) using Safe Reinforcement Learning (PPO Lagrangian) implemented in **JAX/Flax**.
@@ -63,3 +62,4 @@ python play_and_plot_trajectories.py
 ## 🙏 Acknowledgements
 
 This project was developed at the **EPFL Sycamore Lab**. Special thanks to Kai Ren and Tingting Ni for their supervision, and to Federico for the original IsaacLab implementation that served as the reference for this JAX environment.
+
