@@ -1,3 +1,4 @@
+```markdown
 # JetBot Sim2Real: Safe Reinforcement Learning in Low-Friction Environments
 
 This repository contains the code for an EPFL semester project conducted in the Sycamore Lab. The goal of this project is to bridge the Sim2Real gap for a differential-drive JetBot navigating a maze under challenging, low-friction conditions (e.g., puddles) using Safe Reinforcement Learning (PPO Lagrangian) implemented in **JAX/Flax**.
@@ -17,9 +18,10 @@ The project is structured chronologically, reflecting the research steps taken t
 
 ### Prerequisites
 It is recommended to run this code on a machine with a GPU or TPU for JAX acceleration.
+
 ```bash
 # Clone the repository
-git clone [https://github.com/YourUsername/JetBot-Sim2Real.git](https://github.com/YourUsername/JetBot-Sim2Real.git)
+git clone [https://github.com/ftanguy/JetBot-Sim2Real.git](https://github.com/ftanguy/JetBot-Sim2Real.git)
 cd JetBot-Sim2Real
 
 # Install dependencies (ensure you have the correct JAX version for your hardware)
