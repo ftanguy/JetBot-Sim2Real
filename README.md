@@ -63,4 +63,5 @@ python play_and_plot_trajectories.py
 
 ## Acknowledgements
 
-This project was developed at the **EPFL Sycamore Lab**. Special thanks to Kai Ren and Tingting Ni for their supervision, and to Federico for the original IsaacLab implementation that served as the reference for this JAX environment.
+This project was developed at the **EPFL Sycamore Lab**. Special thanks to Kai Ren and Tingting Ni for their supervision, and to Federico Rocca for the original IsaacLab implementation that served as the reference for this JAX environment.
+
