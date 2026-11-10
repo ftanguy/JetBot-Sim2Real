@@ -6,6 +6,8 @@ This repository contains the code for an EPFL semester project conducted in the 
 
 This codebase provides a highly optimized, fully vectorized JAX environment—replicated from an IsaacLab setup—and tracks the evolution of the control policy across three distinct research phases to overcome static friction (stiction) and domain shift.
 
+Note: This repository documents the iterative evolution of an academic semester project at EPFL, structured into distinct developmental phases (from a baseline MLP to physics-informed stacking and data-driven simulation).
+
 ## Repository Structure
 
 The project is structured chronologically, reflecting the research steps taken to solve the Sim2Real gap:
